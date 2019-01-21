@@ -6,7 +6,13 @@ package me.first.project;
  */
 
 public class M2 {
-    //y = x _ 1
+    /**
+     * public private final
+     * 公共    私有     只能赋值一次
+     *
+     * @param y
+     * @return
+     */
     public static int getResult(int y) {
         int sum = y + 10;
         return sum + 1;
