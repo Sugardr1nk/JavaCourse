@@ -1,5 +1,6 @@
 package me.first.project;
 
+
 /**
  * @author ziheng kejun
  * @date 2019/1/18
@@ -26,9 +27,16 @@ public class Main {
          * 将second转换为String类型
          */
         info(String.valueOf(second));
+
+        info(String.valueOf(M2.getResult(6)));
+
     }
 
-    private static void info(String info){
+    /**
+     *
+     * @param info
+     */
+    public static void info(String info){
         System.out.println(info);
     }
 }
