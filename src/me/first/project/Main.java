@@ -30,6 +30,15 @@ public class Main {
 
         info(String.valueOf(M2.getResult(6)));
 
+        int f = 152%10;
+        info(f + "");
+        int s = (152%100)/10;
+        info(s + "");
+        int b = 252/100;
+        info(b * b * b + "");
+
+
+
     }
 
     /**
